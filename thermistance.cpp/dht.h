@@ -14,6 +14,7 @@ float hum;
 float ti;
 
 class DHTe(){
+  DHTe mydht;
   DHTe::temperature();
   DHTe::humidity();
 }
