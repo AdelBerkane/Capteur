@@ -1,7 +1,7 @@
 #include "Arduino.h"
 #include "thermistance.h"
 
- float analogPin = 0;;
+ float analogPin = 0;
  float val;
  float Rt;
  float R = 10000;
