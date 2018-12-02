@@ -5,15 +5,15 @@
 
 
 
-extern float digitalPin = 5;
 
 class Transist
 {
   public:
   Transist();
-  Transist mytransi;
+  Transist* mytransi;
   void on();
   void off();
+  float digitalPin = 5;
 };
 
 

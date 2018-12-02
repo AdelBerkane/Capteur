@@ -1,16 +1,15 @@
 #include "Arduino.h"
+#include "Transist.h"
 
-
-float digitalPin = 5;
 
 Transist::Transist(){
   pinMode(digitalPin, OUTPUT);
 
 }
 
-Transist::on(){
+void Transist::on(){
 digitalWrite(digitalPin, HIGH);
 }
-Transist::off(){
+void Transist::off(){
   digitalWrite(digitalPin, LOW);
 }
