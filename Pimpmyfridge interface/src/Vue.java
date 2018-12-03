@@ -50,7 +50,7 @@ public class Vue implements Observer,ActionListener  {
 		panel2.setBackground(Color.GRAY);
 		panel3.setBackground(Color.DARK_GRAY);
 		model.getTemp();
-		label = new JLabel("Température : " + model.getTemp() + "°C");
+		label = new JLabel("TempÃ©rature : " + model.getTemp() + "C");
 		label.setFont(font);
 		label.setForeground(Color.CYAN);
 		label.setVisible(true);
@@ -61,14 +61,14 @@ public class Vue implements Observer,ActionListener  {
 		panel2.setPreferredSize(new Dimension(50, 100));
 		panel3.setPreferredSize(new Dimension(200, 900));
 		
-		BufferedImage img = ImageIO.read(new File("C:\\Users\\Samy.DESKTOP-TJESP50\\Downloads\\frigo.jpg"));
+		BufferedImage img = ImageIO.read(new File("/Users/adel/Documents/Exia/A2/PMF/Capteur/Pimpmyfridge interface/frigo.jpg"));
 		ImageIcon icon = new ImageIcon(img);
 		
 		JLabel label = new JLabel(icon);
 		JLabel label2 = new JLabel(icon);
 		JLabel label3 = new JLabel(icon);
 		
-		label.setIcon(new ImageIcon(new ImageIcon("C:\\Users\\Samy.DESKTOP-TJESP50\\Downloads\\frigo.jpg").getImage().getScaledInstance(200, 400, Image.SCALE_DEFAULT)));
+		label.setIcon(new ImageIcon(new ImageIcon("/Users/adel/Documents/Exia/A2/PMF/Capteur/Pimpmyfridge interface/frigo.jpg").getImage().getScaledInstance(200, 400, Image.SCALE_DEFAULT)));
 		panel3.add(label);
 		JPanel panel4 = new JPanel();
 		

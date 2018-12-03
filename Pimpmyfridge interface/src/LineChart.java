@@ -34,7 +34,7 @@ public class LineChart extends ApplicationFrame{
 	      super(applicationTitle);
 	      lineChart = ChartFactory.createXYLineChart(
 	         chartTitle,
-	         "Temps","°C",
+	         "Temps","ï¿½C",
 	         createDataset(),
 	         PlotOrientation.VERTICAL,
 	         true,true,false);
@@ -64,17 +64,17 @@ public class LineChart extends ApplicationFrame{
 		  
 		  XYItemRenderer renderer = plot.getRenderer();
 		  
-		  // Température extérieure
+		  // Tempï¿½rature extï¿½rieure
 		  renderer.setSeriesItemLabelPaint(0, new Color(241, 61, 7));
 		  renderer.setSeriesPaint(0, new Color(241, 61, 7));
 		  renderer.setSeriesStroke(0,  new BasicStroke(2));
 		  
-		  // Température intérieure
+		  // Tempï¿½rature intï¿½rieure
 		  renderer.setSeriesItemLabelPaint(1, new Color(0, 174, 189));
 		  renderer.setSeriesPaint(1, new Color(0, 174, 189));
 		  renderer.setSeriesStroke(1,  new BasicStroke(2));
 		  
-		  plot.getRangeAxis().setRange(new Range(0, 35)); // En T°C
+		  plot.getRangeAxis().setRange(new Range(0, 35)); // En Tï¿½C
 		  plot.getRangeAxis().setTickLabelPaint(new Color(200,200,200));
 		  
 //		  plot.setBackgroundPaint(new Color(77,77,77));
@@ -95,8 +95,8 @@ public class LineChart extends ApplicationFrame{
 	{
 		//dataset = new DefaultCategoryDataset( );
 		XYSeriesCollection dataset = new XYSeriesCollection();
-		tempOut = new XYSeries("T° Out");
-		tempIn = new XYSeries("T° In");
+		tempOut = new XYSeries("T Out");
+		tempIn = new XYSeries("T In");
 
 		dataset.addSeries(tempOut);
 		dataset.addSeries(tempIn);

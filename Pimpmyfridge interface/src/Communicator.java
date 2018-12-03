@@ -126,4 +126,3 @@ public class Communicator implements SerialPortEventListener {
 	//	System.out.println("Started");
 	//	Vue vie = new Vue();
 	}
-}
