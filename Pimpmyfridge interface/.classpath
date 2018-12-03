@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_161">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Samy.DESKTOP-TJESP50/Desktop/jfreechart-1.0.1/jfreechart-1.0.1-demo.jar"/>
+	<classpathentry kind="lib" path="/Users/adel/Documents/Exia/A2/PMF/interface pmf/ProjetA2/RXTXcomm.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
