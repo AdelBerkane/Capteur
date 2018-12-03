@@ -14,6 +14,8 @@ Serial.begin(9600);
 }
 
 void loop() {
+
+  //TODO print in string "temp;hum;temp;"
   Serial.println("VVVVVVVVVVVVVV");
   Serial.print("Temperature ambiante : ");
   mydht.temperature();
