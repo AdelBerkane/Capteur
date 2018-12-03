@@ -15,12 +15,12 @@ DHTe::DHTe(){
 }
 void DHTe::temperature(){
   temp = dht.readTemperature();
-  Serial.println(temp);
+  Serial.print(temp);
 
 }
 
 void DHTe::humidity(){
     hum = dht.readHumidity();
-    Serial.println(hum);
+    Serial.print(hum);
     
 }

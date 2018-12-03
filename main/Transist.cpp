@@ -8,8 +8,8 @@ Transist::Transist(){
 }
 
 void Transist::on(){
-digitalWrite(digitalPin, HIGH);
+digitalWrite(digitalPin, 255);
 }
 void Transist::off(){
-  digitalWrite(digitalPin, LOW);
+  digitalWrite(digitalPin, 0);
 }
